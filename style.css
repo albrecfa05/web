@@ -15,18 +15,22 @@
 }
 
 .navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
+    width: 90%;
+    margin-left: 60%;
+    
+    padding: 60px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo{
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    position: relative;
+    left: -4%;
+    top: -22%;
     cursor: pointer;
+    
 }
 
 .navbar ul li{
