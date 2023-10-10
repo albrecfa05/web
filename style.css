@@ -15,10 +15,9 @@
 }
 
 .navbar{
-    width: 90%;
-    margin-left: 60%;
-    
-    padding: 60px 0;
+    width: 85%;
+    margin: auto;
+    padding: 0px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,11 +25,13 @@
 
 .logo{
     width: 50%;
-    position: relative;
-    left: -4%;
-    top: -22%;
-    cursor: pointer;
+    height: 50%;
     
+    position: relative;
+    left: -5%;
+    top: -22%;
+
+    cursor: pointer;
 }
 
 .navbar ul li{
@@ -75,6 +76,12 @@ text-transform: uppercase;
     margin-top: 20px;
     padding-top: 10%;
 }
+
+.gradient{
+    background: linear-gradient(to right, aqua, rgb(30, 80, 100));
+    /*-webkit-background-clip: text;*/
+    -webkit-text-fill-color: transparent;
+}                                                                     /*Gradient Klasse zu Heading hinzufügen*/
 
 button{
     letter-spacing: 1px;
